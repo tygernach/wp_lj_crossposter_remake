@@ -1,6 +1,6 @@
 === Livejournal Crossposter Remake ===
 Contributors: tygernach
-Donate link: http://iskariot.ru/wordpress/remix/#lj-crosspost
+Donate link: https://github.com/tygernach/wp_lj_crossposter_remake
 Tags: livejournal, lj, text, rss, post, posts, crosspost
 Requires at least: 2.5
 Tested up to: 3.4
