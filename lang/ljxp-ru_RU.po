@@ -1,0 +1,355 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: LiveJournal Crosspost 2.x\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-04-29 13:44-0500\n"
+"PO-Revision-Date: 2008-04-29 13:44-0500\n"
+"Last-Translator: Arseniy 'FreeAtNet' Ivanov <freeatnet@freeatnet.com>\n"
+"Language-Team: FreeAtNet <freeatnet@freeatnet.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: /Users/2118038/Documents/EasyEclipse/ljxp/lang/\n"
+"X-Poedit-SearchPath-0: /Users/2118038/Documents/EasyEclipse/ljxp\n"
+
+# D:\work\Uniform
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:178
+msgid "Options saved."
+msgstr "Настройки сохранены"
+
+# D:\work\Uniform
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:188
+msgid "LiveJournal Crossposter Options"
+msgstr "Настройки публикации в ЖЖ"
+
+# D:\work\Uniform
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:191
+msgid "LiveJournal-compliant host:"
+msgstr "Адрес LiveJournal:"
+
+# D:\work\Uniform
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:195
+msgid "If you are using a LiveJournal-compliant site other than LiveJournal (like DeadJournal), enter the domain name here. LiveJournal users can use the default value"
+msgstr "Если вы используете LiveJournal-совместимый сайт, но не LiveJournal (например, DeadJournal), введите его адрес тут. Пользователи ЖЖ могут использовать текущее значение."
+
+# D:\work\Uniform
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:201
+msgid "LJ Username"
+msgstr "Имя в ЖЖ"
+
+# D:\work\Uniform
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:205
+msgid "LJ Password"
+msgstr "Пароль в ЖЖ"
+
+# D:\work\Uniform
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:209
+msgid "Only enter a value if you wish to change the stored password. Leaving this field blank will not erase any passwords already stored."
+msgstr "Вводите пароль если только хотите изменить сохраненный пароль. Если вы оставите поле пустым - это не сотрет сохраненный пароль."
+
+# C:\www\xampp\htdocs\wordpress\plugins\lj_crosspost\trunk/lj_crosspost.php:286
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:215
+msgid "Community"
+msgstr "Сообщество"
+
+# C:\www\xampp\htdocs\wordpress\plugins\lj_crosspost\trunk/lj_crosspost.php:290
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:219
+msgid "If you wish your posts to be copied to a community, enter the community name here. Leaving this space blank will copy the posts to the specified user's journal instead"
+msgstr "Если Вы хотите, чтобы Ваши записи были скопированы в сообщество, введите имя сообщества здесь. Оставьте поле пустым и записи будут скопированы только в ЖЖ заданного пользователя."
+
+# D:\work\Uniform
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:226
+msgid "Blog Header"
+msgstr "Заголовок блога"
+
+# C:\www\xampp\htdocs\wordpress\plugins\lj_crosspost\trunk/lj_crosspost.php:300
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:229
+msgid "Crosspost header/footer location"
+msgstr "Настройки шапки/подвала для публикации в ЖЖ"
+
+# C:\www\xampp\htdocs\wordpress\plugins\lj_crosspost\trunk/lj_crosspost.php:305
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:233
+msgid "Top of post"
+msgstr "Сверху записи"
+
+# C:\www\xampp\htdocs\wordpress\plugins\lj_crosspost\trunk/lj_crosspost.php:310
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:237
+msgid "Bottom of post"
+msgstr "Снизу записи"
+
+# D:\work\Uniform
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:240
+msgid "Set blog name for crosspost header/footer"
+msgstr "Выберите заголовок блога для использования в шапке/подвале"
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:244
+#, php-format
+msgid "Use the title of your blog (%s)"
+msgstr "Использовать заголовок блога (%s)"
+
+# D:\work\Uniform
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:249
+msgid "Use a custom title"
+msgstr "Другой"
+
+# D:\work\Uniform
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:254
+msgid "Custom blog title"
+msgstr "Другой заголовок"
+
+# D:\work\Uniform
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:258
+msgid "If you chose to use a custom title above, enter the title here. This will be used in the header which links back to this site at the top of each post on the LiveJournal."
+msgstr "Если вы выбрали \"другой\", введите заголовок сюда. Этот заголовок будет использован сверху каждой записи в ЖЖ для ссылки на ваш блог."
+
+# D:\work\Uniform
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:264
+msgid "Custom crosspost header/footer"
+msgstr "Задааный заголовок блога для использования в шапке/подвале"
+
+# C:\www\xampp\htdocs\wordpress\plugins\lj_crosspost\trunk/lj_crosspost.php:340
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:268
+msgid "If you wish to use LJXP's dynamically generated post header/footer, you can ignore this setting. If you don't like the default crosspost header/footer, specify your own here. For flexibility, you can choose from a series of case-sensitive substitution strings, listed below:"
+msgstr "Если Вы хотите использовать динамические шапку/подвал LJXP, то можете проигнорировать эти настройки. Если Вам не нравится то, что получается по умолчанию - тогда укажите свои. Вы можете использовать некоторые значения для подстановки (регистро-зависимые): "
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:273
+msgid "The title of your blog, as specified above"
+msgstr "Заголовок Вашего блога указан здесь"
+
+# C:\www\xampp\htdocs\wordpress\plugins\lj_crosspost\trunk/lj_crosspost.php:348
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:276
+msgid "The URL of your blog's homepage"
+msgstr "Ссылка на Ваш блог"
+
+# C:\www\xampp\htdocs\wordpress\plugins\lj_crosspost\trunk/lj_crosspost.php:351
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:279
+msgid "A permanent URL to the post being crossposted"
+msgstr "Ссылка на запись, которая будет опубликована в ЖЖ"
+
+# C:\www\xampp\htdocs\wordpress\plugins\lj_crosspost\trunk/lj_crosspost.php:354
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:282
+msgid "The URL for comments. Generally this is the permalink URL with #comments on the end"
+msgstr "Ссылка на комментарии. Обычно, это ссылка на запись, с #comments на конце"
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:285
+msgid "Tags with links list for the post"
+msgstr "Список тегов-ссылок"
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:288
+msgid "Categories with links list for the post"
+msgstr "Список категорий-ссылок"
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:291
+msgid "An image containing a comments counter"
+msgstr "Изображение-счетчик комментариев Wordpress"
+
+# D:\work\Uniform
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:298
+msgid "Post Privacy"
+msgstr "Уровень доступа"
+
+# D:\work\Uniform
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:301
+msgid "Privacy level for all posts to LiveJournal"
+msgstr "Уровень доступа к записям в ЖЖ"
+
+# D:\work\Uniform
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:305
+msgid "Public"
+msgstr "Публичный"
+
+# D:\work\Uniform
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:310
+msgid "Private"
+msgstr "Приватный"
+
+# D:\work\Uniform
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:315
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:845
+msgid "Friends only"
+msgstr "Для друзей"
+
+# D:\work\Uniform
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:323
+msgid "LiveJournal Comments"
+msgstr "Комментарии в ЖЖ"
+
+# D:\work\Uniform
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:326
+msgid "Should comments be allowed on LiveJournal?"
+msgstr "Оставлять комментарии в ЖЖ?"
+
+# D:\work\Uniform
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:330
+msgid "Require users to comment on WordPress"
+msgstr "Комментирование только в WordPress"
+
+# D:\work\Uniform
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:335
+msgid "Allow comments on LiveJournal"
+msgstr "Разрешить комментарии в ЖЖ"
+
+# D:\work\Uniform
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:342
+msgid "LiveJournal Tags"
+msgstr "Теги ЖЖ"
+
+# D:\work\Uniform
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:345
+msgid "Tag entries on LiveJournal?"
+msgstr "Помечать записи в ЖЖ?"
+
+# D:\work\Uniform
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:359
+msgid "Tag LiveJournal entries with WordPress categories only"
+msgstr "Помечать записи в ЖЖ рубриками WordPress"
+
+# D:\work\Uniform
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:364
+msgid "Tag LiveJournal entries with WordPress categories and tags"
+msgstr "Совмещать рубрики и тэги Wordpress в пометках ЖЖ-записи"
+
+# D:\work\Uniform
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:369
+msgid "Tag LiveJournal entries with WordPress tags only"
+msgstr "Помечать записи в ЖЖ тэгами Wordpress"
+
+# D:\work\Uniform
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:374
+msgid "Do not tag LiveJournal entries"
+msgstr "Не помечать записи в ЖЖ"
+
+# D:\work\Uniform
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:378
+msgid "You may with to disable this feature if you are posting in an alphabet other than the Roman alphabet. LiveJournal does not seem to support non-Roman alphabets in tag names."
+msgstr "Вы можете отключить эту функцию, если ваши записи не в латинице. ЖЖ похоже не поддерживает нелатинские символы в тегах."
+
+# D:\work\Uniform
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:385
+msgid "Handling of &lt;!--More--&gt;"
+msgstr "Использование &lt;--More--&gt;"
+
+# D:\work\Uniform
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:388
+msgid "How should LJXP handle More tags?"
+msgstr "Как обрабатывать тег More"
+
+# D:\work\Uniform
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:392
+msgid "Link back to WordPress"
+msgstr "Ссылка на блог"
+
+# D:\work\Uniform
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:397
+msgid "Use an lj-cut"
+msgstr "Использовать lj-cut"
+
+# D:\work\Uniform
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:402
+msgid "Copy the entire entry to LiveJournal"
+msgstr "Копировать всю запись в ЖЖ."
+
+# C:\www\xampp\htdocs\wordpress\plugins\lj_crosspost\trunk/lj_crosspost.php:448
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:410
+msgid "Category Selection"
+msgstr "Выбор рубрики"
+
+# C:\www\xampp\htdocs\wordpress\plugins\lj_crosspost\trunk/lj_crosspost.php:451
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:413
+msgid "Select which categories should be crossposted"
+msgstr "Выберите рубрики, которые будут публиковаться в ЖЖ"
+
+# C:\www\xampp\htdocs\wordpress\plugins\lj_crosspost\trunk/lj_crosspost.php:460
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:423
+msgid "Any post that has <em>at least one</em> of the above categories selected will be crossposted."
+msgstr "Любая запись, которая привязана хотя бы к одной из этих рубрик, будет опубликована в ЖЖ."
+
+# C:\www\xampp\htdocs\wordpress\plugins\lj_crosspost\trunk/lj_crosspost.php:468
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:431
+msgid "Update Options and Crosspost All WordPress entries"
+msgstr "Сохранить настройки и опубликовать все записи из WordPress"
+
+# D:\work\Uniform
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:432
+msgid "Update Options"
+msgstr "Сохранить настройки"
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:559
+msgid "Originally published at"
+msgstr "Запись опубликована"
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:566
+msgid "This post is password protected. You can read it at"
+msgstr "Эта запись защищена паролем. Вы можете прочитать ее на"
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:570
+msgid "where it was originally posted"
+msgstr ", где она была опубликована"
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:577
+#, php-format
+msgid " You can comment here or <a href=\"%s#comments\">there</a>."
+msgstr "Вы можете оставить комментарии здесь или <a href=\"%s#comments\">тут</a>"
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:580
+#, php-format
+msgid " Please leave any <a href=\"%s#comments\">comments</a> there."
+msgstr " Пожалуйста, оставляйте <a href=\"%s#comments\">комментарии</a> там."
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:624
+msgid "Read the rest of this entry &raquo;"
+msgstr "Читать запись полностью &raquo;"
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:629
+msgid "Read the rest of this entry &amp;raquo;"
+msgstr "Читать запись полностью &amp;raquo;"
+
+# D:\work\Uniform
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:800
+msgid "LiveJournal"
+msgstr "ЖЖ"
+
+# C:\www\xampp\htdocs\wordpress\plugins\lj_crosspost\trunk/lj_crosspost.php:826
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:806
+msgid "Crosspost"
+msgstr "Кросспост"
+
+# C:\www\xampp\htdocs\wordpress\plugins\lj_crosspost\trunk/lj_crosspost.php:830
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:811
+msgid "Do not crosspost"
+msgstr "Не публиковать в ЖЖ"
+
+# C:\www\xampp\htdocs\wordpress\plugins\lj_crosspost\trunk/lj_crosspost.php:837
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:818
+msgid "Default comments setting"
+msgstr "Параметры комментариев (по умолчанию)"
+
+# C:\www\xampp\htdocs\wordpress\plugins\lj_crosspost\trunk/lj_crosspost.php:841
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:822
+msgid "Comments on"
+msgstr "Комментарии включены"
+
+# C:\www\xampp\htdocs\wordpress\plugins\lj_crosspost\trunk/lj_crosspost.php:845
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:826
+msgid "Comments off"
+msgstr "Комментарии выключены"
+
+# C:\www\xampp\htdocs\wordpress\plugins\lj_crosspost\trunk/lj_crosspost.php:852
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:833
+msgid "Default post privacy setting"
+msgstr "Настройки приватности для записи"
+
+# D:\work\Uniform
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:837
+msgid "Public post"
+msgstr "Публичный"
+
+# D:\work\Uniform
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:841
+msgid "Private post"
+msgstr "Приватный"
+

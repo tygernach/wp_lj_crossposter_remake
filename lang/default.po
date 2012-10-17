@@ -1,0 +1,301 @@
+# Spanish (Mexico) translation for LJXP
+# Copyright (C) 2006 by the LJXP Translation Team
+# This file is distributed under the same license as the LJXP package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: LiveJournal Crossposter 2.x\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-04-29 13:49-0500\n"
+"PO-Revision-Date: 2008-04-29 13:49-0500\n"
+"Last-Translator: Arseniy 'FreeAtNet' Ivanov <freeatnet@freeatnet.com>\n"
+"Language-Team: LJXP Translation Team <plugins@ebroder.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: /Users/2118038/Documents/EasyEclipse/ljxp\n"
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:178
+msgid "Options saved."
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:188
+msgid "LiveJournal Crossposter Options"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:191
+msgid "LiveJournal-compliant host:"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:195
+msgid "If you are using a LiveJournal-compliant site other than LiveJournal (like DeadJournal), enter the domain name here. LiveJournal users can use the default value"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:201
+msgid "LJ Username"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:205
+msgid "LJ Password"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:209
+msgid "Only enter a value if you wish to change the stored password. Leaving this field blank will not erase any passwords already stored."
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:215
+msgid "Community"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:219
+msgid "If you wish your posts to be copied to a community, enter the community name here. Leaving this space blank will copy the posts to the specified user's journal instead"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:226
+msgid "Blog Header"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:229
+msgid "Crosspost header/footer location"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:233
+msgid "Top of post"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:237
+msgid "Bottom of post"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:240
+msgid "Set blog name for crosspost header/footer"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:244
+#, php-format
+msgid "Use the title of your blog (%s)"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:249
+msgid "Use a custom title"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:254
+msgid "Custom blog title"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:258
+msgid "If you chose to use a custom title above, enter the title here. This will be used in the header which links back to this site at the top of each post on the LiveJournal."
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:264
+msgid "Custom crosspost header/footer"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:268
+msgid "If you wish to use LJXP's dynamically generated post header/footer, you can ignore this setting. If you don't like the default crosspost header/footer, specify your own here. For flexibility, you can choose from a series of case-sensitive substitution strings, listed below:"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:273
+msgid "The title of your blog, as specified above"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:276
+msgid "The URL of your blog's homepage"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:279
+msgid "A permanent URL to the post being crossposted"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:282
+msgid "The URL for comments. Generally this is the permalink URL with #comments on the end"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:285
+msgid "Tags with links list for the post"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:288
+msgid "Categories with links list for the post"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:291
+msgid "An image containing a comments counter"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:298
+msgid "Post Privacy"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:301
+msgid "Privacy level for all posts to LiveJournal"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:305
+msgid "Public"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:310
+msgid "Private"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:315
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:845
+msgid "Friends only"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:323
+msgid "LiveJournal Comments"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:326
+msgid "Should comments be allowed on LiveJournal?"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:330
+msgid "Require users to comment on WordPress"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:335
+msgid "Allow comments on LiveJournal"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:342
+msgid "LiveJournal Tags"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:345
+msgid "Tag entries on LiveJournal?"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:359
+msgid "Tag LiveJournal entries with WordPress categories only"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:364
+msgid "Tag LiveJournal entries with WordPress categories and tags"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:369
+msgid "Tag LiveJournal entries with WordPress tags only"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:374
+msgid "Do not tag LiveJournal entries"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:378
+msgid "You may with to disable this feature if you are posting in an alphabet other than the Roman alphabet. LiveJournal does not seem to support non-Roman alphabets in tag names."
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:385
+msgid "Handling of &lt;!--More--&gt;"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:388
+msgid "How should LJXP handle More tags?"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:392
+msgid "Link back to WordPress"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:397
+msgid "Use an lj-cut"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:402
+msgid "Copy the entire entry to LiveJournal"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:410
+msgid "Category Selection"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:413
+msgid "Select which categories should be crossposted"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:423
+msgid "Any post that has <em>at least one</em> of the above categories selected will be crossposted."
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:431
+msgid "Update Options and Crosspost All WordPress entries"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:432
+msgid "Update Options"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:559
+msgid "Originally published at"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:566
+msgid "This post is password protected. You can read it at"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:570
+msgid "where it was originally posted"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:577
+#, php-format
+msgid " You can comment here or <a href=\"%s#comments\">there</a>."
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:580
+#, php-format
+msgid " Please leave any <a href=\"%s#comments\">comments</a> there."
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:624
+msgid "Read the rest of this entry &raquo;"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:629
+msgid "Read the rest of this entry &amp;raquo;"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:800
+msgid "LiveJournal"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:806
+msgid "Crosspost"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:811
+msgid "Do not crosspost"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:818
+msgid "Default comments setting"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:822
+msgid "Comments on"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:826
+msgid "Comments off"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:833
+msgid "Default post privacy setting"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:837
+msgid "Public post"
+msgstr ""
+
+#: /Users/2118038/Documents/EasyEclipse/ljxp/lj_crosspost.php:841
+msgid "Private post"
+msgstr ""
+
