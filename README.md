@@ -1,4 +1,4 @@
-wp_lj_crossposter_remake
+WordPress LiveJournal Crossposter Remake
 ========================
 
 My working version of WordPress plugin LiveJournal Crossposter Remix
