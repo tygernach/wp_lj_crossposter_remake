@@ -151,7 +151,7 @@ function ljxp_display_options() {
 
 				'ljxp_header_loc'	=> 0,		// 0 means top, 1 means bottom
 
-				'ljxp_ljref'		=> '',
+				'ljxp_ljref'		=> '<span style="font-size: smaller;">You can read this post at <a href="[lj_url]" rel="nofollow">LiveJournal</a>.</span>',
 
 				'ljxp_ljref_on'		=> 0,
 
