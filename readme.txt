@@ -4,7 +4,7 @@ Donate link: https://github.com/tygernach/wp_lj_crossposter_remake
 Tags: livejournal, lj, text, rss, post, posts, crosspost
 Requires at least: 2.5
 Tested up to: 3.4
-Stable tag: 1.0
+Stable tag: 1.2
 License: GPLv2 or later
 
 Automatically copies all posts to a LiveJournal or other LiveJournal-based blog. Optionally adds link to crossposted LiveJournal entry.
@@ -31,3 +31,12 @@ Original plugins by Arseniy Ivanov, Evan Broder and Sergey M.
 
 1. Upload plugin folder to the `/wp-content/plugins/` directory
 2. Activate the plugin 'Livejournal Crossposter Remake' through the 'Plugins' menu in WordPress
+
+== Changelog ==
+
+v.1.2:
+In case of crosspost errors will show id and link to 'wrong' post.
+Fix links to tinymce editor.
+
+v.1.1:
+Fix php error described here http://wordpress.org/support/topic/php53-and-fastcgi-on-iis-with-wordpress

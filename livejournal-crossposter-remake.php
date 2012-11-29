@@ -8,7 +8,7 @@ Plugin URI: https://github.com/tygernach/wp_lj_crossposter_remake
 
 Description: Automatically copies all posts to a LiveJournal or other LiveJournal-based blog (exclude text in shortcode [nocrosspost]smth[/nocrosspost] - buttons for it added in visual&html editors). Editing or deleting a post will be replicated as well. Original plugins by Arseniy Ivanov, Evan Broder and Sergey M.
 
-Version: 1.0
+Version: 1.2
 
 Author: tygernach
 Author URI: http://blog.tyger.me
@@ -1515,7 +1515,7 @@ function ljxp_post($post_id) {
 
 	if (!$client->query($method, $args)) {
 
-		wp_die('Something went wrong - '.$client->getErrorCode().' : '.$client->getErrorMessage());
+		wp_die('Something went wrong with <a href="'.get_permalink($post_id).'">this WP post</a> (post id = '.$post_id.'). Error - '.$client->getErrorCode().' : '.$client->getErrorMessage());
 
 	}
 
@@ -1647,7 +1647,7 @@ function ljxp_delete($post_id) {
 
 	if (!$client->query('LJ.XMLRPC.editevent', $args)) {
 
-		wp_die('Something went wrong - '.$client->getErrorCode().' : '.$client->getErrorMessage());
+		wp_die('Something went wrong with <a href="'.get_permalink($post_id).'">this WP post</a> (post id = '.$post_id.'). Error - '.$client->getErrorCode().' : '.$client->getErrorMessage());
 
 	}
 
@@ -2001,7 +2001,7 @@ function ljxp_add_shortcode_mce() {
 }
 
 //add buttons to TinyMCE
-function &ljxp_tinymce_registerbutton(&$buttons) {
+function &ljxp_tinymce_registerbutton($buttons) {
 	array_push($buttons, 'separator', 'nocross');
 
 	return $buttons;
@@ -2009,18 +2009,18 @@ function &ljxp_tinymce_registerbutton(&$buttons) {
 
 //add plugin to TinyMCE
 //for 2.7 and upper
-function &ljxp_tinymce_addplugin(&$plugin_array) {
+function &ljxp_tinymce_addplugin($plugin_array) {
 	if (function_exists ('plugins_url') )
-		$plugin_array['nocross'] = plugins_url('livejournal-crossposter-remix/tinymce/plugins/ljxp/editor_plugin.js');
+		$plugin_array['nocross'] = plugins_url('livejournal-crossposter-remake/tinymce/plugins/ljxp/editor_plugin.js');
 	else
-		$plugin_array['ljusers'] = get_option('url') . '/wp-content/plugins/livejournal-crossposter-remix/tinymce/plugins/ljxp/editor_plugin.js';
+		$plugin_array['ljusers'] = get_option('url') . '/wp-content/plugins/livejournal-crossposter-remake/tinymce/plugins/ljxp/editor_plugin.js';
 
 	return $plugin_array;
 }
 
 //add plugin to TinyMCE
 //for 2.6 and below
-function &ljxp_tinymce_old_addplugin(&$plugins) {
+function &ljxp_tinymce_old_addplugin($plugins) {
 	array_push($plugins, '-nocross');
 
 	return $plugins;
@@ -2030,9 +2030,9 @@ function &ljxp_tinymce_old_addplugin(&$plugins) {
 //for 2.4 and below
 function ljxp_tinymce_old_load() {
 	if (function_exists ('plugins_url') )
-		echo "tinyMCE.loadPlugin('nocross', '". plugins_url("/wp-content/plugins/livejournal-crossposter-remix/tinymce/plugins/ljxp/") ."');\n";
+		echo "tinyMCE.loadPlugin('nocross', '". plugins_url("/wp-content/plugins/livejournal-crossposter-remake/tinymce/plugins/ljxp/") ."');\n";
 	else
-		echo "tinyMCE.loadPlugin('nocross', '".get_bloginfo('url')."/wp-content/plugins/livejournal-crossposter-remix/tinymce/plugins/ljxp/');\n";
+		echo "tinyMCE.loadPlugin('nocross', '".get_bloginfo('url')."/wp-content/plugins/livejournal-crossposter-remake/tinymce/plugins/ljxp/');\n";
 }
 
 function ljxp_ljpost_link($content)
