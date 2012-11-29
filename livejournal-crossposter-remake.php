@@ -1029,7 +1029,7 @@ function ljxp_post($post_id) {
 										get_option('ljxp_privacy') ),*/
 						'privacy'	=>	$privacy,
 
-						'comments' => ( (get_post_meta($post_id, 'ljxp_comments', true != 0) ) ? ( 2 - get_post_meta($post_id, 'ljxp_comments', true) ) : get_option('ljxp_comments') ),
+						'comments' => ( (get_post_meta($post_id, 'ljxp_comments', true)!= 0 ) ? ( 2 - get_post_meta($post_id, 'ljxp_comments', true) ) : get_option('ljxp_comments') ),
 
 						'tag' => get_option('ljxp_tag'),
 
@@ -1868,7 +1868,7 @@ function ljxp_save($post_id) {
 
 
 
-	/*
+	
 	 //lj privacy fix by tygernach (tyger@tyger.me)
 	  if(isset($_POST['ljxp_privacy'])) {
 
@@ -1880,7 +1880,7 @@ function ljxp_save($post_id) {
 
 		}
 
-	}*/
+	}
 
 }
 
@@ -1926,7 +1926,8 @@ if(get_option('ljxp_username') != "") {
 
 	add_action('delete_post', 'ljxp_delete');
 
-	add_action('dbx_post_sidebar', 'ljxp_sidebar');
+//	add_action('dbx_post_sidebar', 'ljxp_sidebar');
+	add_action( 'admin_menu', 'ljxp_post_advanced' );
 
 	add_action('publish_post', 'ljxp_save', 1);
 
@@ -2048,6 +2049,5 @@ function ljxp_post_advanced() {
 }
 
 add_filter('the_content', 'ljxp_ljpost_link');
-add_action( 'admin_menu', 'ljxp_post_advanced' );
 
 ?>
