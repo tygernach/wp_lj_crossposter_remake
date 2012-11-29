@@ -1719,19 +1719,11 @@ function ljxp_sidebar() {
 
 	global $post, $wp_version;
 
-?>
-
-	<<?=((bool)version_compare($wp_version, '2.5', '>=')? 'div class="postbox closed"' : 'fieldset class="dbx-box"' )?> id="ljxpdiv">
-
-		<h3<?=((bool)version_compare($wp_version, '2.5', '<=')?'><a class="togbox">+</a':' class="dbx-handle"')?>> <?php _e('LiveJournal', LJXP_DOMAIN); ?>:</h3>
-
-		<div <?=((bool)version_compare($wp_version, '2.5', '>=')?'class="inside"':'class="dbx-content"')?>>
-
-        	<?=((bool)version_compare($wp_version, '2.5', '>=')?'<p>':'')?>
-
-
-
-			<label class="selectit" for="ljxp_crosspost_go">
+	if ((bool)version_compare($wp_version, '2.5', '>='))
+	{
+		echo '<p>';
+		?>
+		<label class="selectit" for="ljxp_crosspost_go">
 
 				<input type="radio" <?php checked(get_post_meta($post->ID, 'no_lj', true), 0); ?> value="1" name="ljxp_crosspost" id="ljxp_crosspost_go"/>
 
@@ -1816,17 +1808,12 @@ function ljxp_sidebar() {
 				<?php _e('Friends only', LJXP_DOMAIN); ?>
 
 			</label>
-
-        	<?=((bool)version_compare($wp_version, '2.5', '>=')?'</p>':'')?>
-
-		</div>
-
-	</<?=((bool)version_compare($wp_version, '2.5', '>=')? 'div' : 'fieldset' )?>>
-
-
-
-<?php
-
+			<?php
+	}
+	else
+	{
+		_e( 'Your WordPress version is too old. Please upgrade.' );
+	}
 }
 
 
@@ -2056,6 +2043,11 @@ function ljxp_ljpost_link($content)
 		return $result;
 }
 
+function ljxp_post_advanced() {
+	add_meta_box( 'ljxpdiv', 'LiveJournal Crosspost', 'ljxp_sidebar', 'post', 'advanced', 'high' );
+}
+
 add_filter('the_content', 'ljxp_ljpost_link');
+add_action( 'admin_menu', 'ljxp_post_advanced' );
 
 ?>
