@@ -8,7 +8,7 @@ Plugin URI: https://github.com/tygernach/wp_lj_crossposter_remake
 
 Description: Automatically copies all posts to a LiveJournal or other LiveJournal-based blog (exclude text in shortcode [nocrosspost]smth[/nocrosspost] - buttons for it added in visual&html editors). Editing or deleting a post will be replicated as well. Original plugins by Arseniy Ivanov, Evan Broder and Sergey M.
 
-Version: 1.2
+Version: 1.3
 
 Author: tygernach
 Author URI: http://blog.tyger.me
