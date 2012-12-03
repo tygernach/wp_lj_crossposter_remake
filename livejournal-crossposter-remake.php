@@ -1522,18 +1522,26 @@ function ljxp_post($post_id) {
 
 
 	// If we were making a new post on LJ, we need the itemid for future reference
-	// Or it's old post without saved lj_permalink option
+	// Or it's old post without saved lj_permalink option	
 
-	if('LJ.XMLRPC.postevent' == $method || !get_post_meta($post_id, 'lj_permalink', true)) {
+	//if('LJ.XMLRPC.postevent' == $method || !$old_permalink) {
 
 		$response = $client->getResponse();		
-
+		
 		// Store it to the metadata
+		// There was a problem with changed lg post id's so let's check it
 
-		add_post_meta($post_id, 'ljID', $response['itemid']);
-		add_post_meta($post_id, 'lj_permalink', $response['url']);
+		if (get_post_meta($post_id, 'ljID', true) != $response['itemid'])
+		{
+			add_post_meta($post_id, 'ljID', $response['itemid']);
+		}
 
-	}
+		if (get_post_meta($post_id, 'lj_permalink', true) != $response['url'])
+		{
+			add_post_meta($post_id, 'lj_permalink', $response['url']);
+		}
+
+	//}
 
 	// If you don't return this, other plugins and hooks won't work
 
